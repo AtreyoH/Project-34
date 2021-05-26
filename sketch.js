@@ -45,7 +45,7 @@ function setup() {
 function draw() {          
   background(bg);
   Engine.update(engine);
-  text(mouseX+" , "+mouseY,mouseX,mouseY);
+ // text(mouseX+" , "+mouseY,mouseX,mouseY);
   ground.display();
   hero.display();
   monster.display();
